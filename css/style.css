@@ -1,3 +1,4 @@
+/* Start with Body Design 1st (Beginner) */
 body {
 	font-family: Arial;
 	font-size: 14px;
@@ -6,21 +7,23 @@ body {
 	margin-left: 2%;
 	
 }
-
+/* Social Media Icon possition */
 #social {
 	float: left;
 }
 
+/* Seperate Header Links */
 .borderlinks {
 	border-bottom: 1px solid #f4f4f4;
 	padding-top: 30px;
 }
 
+/* Links at header */
 #headerLinks {
 	float: right;
 	text-align: center;
 }
-
+/* Design Header Link style */
 #headerLinks a {
 	border-left: 1px solid #797979;
 	padding: 10px;
@@ -28,12 +31,13 @@ body {
 	color: #797979;
 	
 }
-
+/* Effect when hover on link */
 #headerLinks a:hover {
 	color: #e62a8a;
 	text-decoration: underline;
 }
 
+/* Add to cart button */
 .addtocart {
 	float: right;
 	margin: 0 50px 0 0;
@@ -49,24 +53,30 @@ body {
 	color: #000;
 }
 
+/* View Cart Icons */
 .addbag {
 	float: right;
 	margin: 45px 0 0 10px;
 }
 
+/* Discount text style */
 .discounted {
 	font-weight: bold;
 }
 
+/* Clear any border at headerlinks */
 #headerLinks .clears {
 	border: none;
 }
 
+
+/* Logo Style */
 #Logo {
 	padding: 3%;
 	padding-top: 2%;
 }
 
+/* Form style for search */
 .form-wrapper{
 	float: right;
 	padding-top: 50px;
@@ -86,6 +96,7 @@ body {
 	float: right;
 }
 
+/* Navigation styling Starts Here */
 .toggleMenu {
 	display: none;
 	background: #666;
@@ -198,14 +209,7 @@ nav ul ul ul li {
 li > a:after { content:  ' +'; }
 li > a:only-child:after { content: ''; }
 
-
-.right-bar {
-	float: right;
-	list-style-type: none;
-	padding-top: 1%;
-}
-
-
+/* Sliding image effect */
 @keyframes slidy {
 0% { left: 0%; }
 20% { left: 0%; }
@@ -228,16 +232,15 @@ div#slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; 
-}
+} /* End sliding effect */
 
+/* Global h1 effect */
 h1 {
   font-size: 3em;
   text-align: center;
 }
 
-.subtitle {
-  margin: 0 0 2em 0;
-}
+/* Styling for "New Arrival" & "Top Seller" Text Header */
 .fancy {
   line-height: 0.5;
   text-align: center;
@@ -264,19 +267,19 @@ h1 {
   left: 100%;
   margin-left: 15px;
 }
-
+/* Design for Item Catalogue 1st Row */
 .one-third {
 	width: 20%;
 	float: left;
 	margin: 2% 0 3% 4%;
 	font-weight: bold;
 }
-
+/* Possitioning Image in Catalogue */
 .img-cata {
 	padding: 0 7%;
 	
 }
-
+/* Prices style text */
 .prices {
 	color: #e62a8a;
 	font-size: 20px;
@@ -288,10 +291,12 @@ h1 {
 	text-decoration: line-through;
 }
 
+/* Clear any element */
 .clearfix {
 	clear:both;
 }
 
+/* Footer Design */
 footer{
 	background: #242424;
 	width: 100%;
@@ -299,6 +304,7 @@ footer{
 	overflow: auto;
 }
 
+/* Design for links in footer */
 .tab1 {
 	float: left;
 	margin: 2% 0 3% 5%;
@@ -321,6 +327,7 @@ footer{
 	text-decoration: underline;
 }
 
+/* Footer Copyright Section */
 .footer-end {
 	float:left;
 	padding: 1% 0 1% 2%;
@@ -328,6 +335,7 @@ footer{
 	width: 98%;
 }
 
+/* Newsletter part here */
 .newsletter input[type="email"] {
 	text-align: center;
 	width: 250px;
@@ -475,54 +483,55 @@ footer{
 	.addtocart {
 		margin: 0 50px 0 0;
 	}
-footer{
-	background: #242424;
-	width: 100%;
-	padding-top:1%;
-	overflow: auto;
-}
-
-.tab1 {
-	float: left;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.tab1 h2 {
-	text-align: center;
-	padding: 5px;
-}
-
-.tab1 p {
-	width: 90%;
-	padding: 10px;
-	margin: 0;
-}
-
-.tab1 img {
-	padding: 10px;
-}
-
-
-.footer-end {
-	text-align: center;
-	width: 98%;
-}
-
-.newsletter input[type="email"] {
-	margin: 1px 0 1px 10px;
-}
-
-.newsletter button {
-	margin: 1px 10px 10px 10px;
-}
-
-.newsletter h2{
-	text-align: center;
-}
-.newsletter p {
-	text-align: center;
 	
-}
+	footer {
+		background: #242424;
+		width: 100%;
+		padding-top:1%;
+		overflow: auto;
+	}
+
+	.tab1 {
+		float: left;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.tab1 h2 {
+		text-align: center;
+		padding: 5px;
+	}
+
+	.tab1 p {
+		width: 90%;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.tab1 img {
+		padding: 10px;
+	}
+
+
+	.footer-end {
+		text-align: center;
+		width: 98%;
+	}
+
+	.newsletter input[type="email"] {
+		margin: 1px 0 1px 10px;
+	}
+
+	.newsletter button {
+		margin: 1px 10px 10px 10px;
+	}
+
+	.newsletter h2{
+		text-align: center;
+	}
+	.newsletter p {
+		text-align: center;
+		
+	}
 }
